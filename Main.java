@@ -82,6 +82,7 @@ public class Main extends Application {
                 }
                 stage.setWidth(canvas.getWidth()+400);
                 stage.setHeight(canvas.getHeight()+100);
+                text.setVisible(false);
                 gr.drawImage(image[0], 0, 0);
             }
         });
